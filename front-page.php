@@ -7,6 +7,7 @@ get_header();
 ?>
 
 <main class="site-main">
+    <span>Test</span>
     <section class="hero-section">
         <!-- Hero section content -->
     </section>
