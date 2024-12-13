@@ -5,8 +5,9 @@
 
 get_header();
 ?>
-
 <div id="primary" class="content-area">
+    <h1>Woocommerce theme</h1>
+    <span>Test Page Text</span>
     <main id="main" class="site-main">
         <?php
         while ( have_posts() ) :
