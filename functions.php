@@ -23,3 +23,5 @@ function custom_theme_scripts() {
     wp_enqueue_script( 'custom-js', get_template_directory_uri() . '/assets/js/custom.js', array('jquery'), '1.0.0', true );
 }
 add_action( 'wp_enqueue_scripts', 'custom_theme_scripts' );
+
+include_once get_template_directory() . '/footer.php';
