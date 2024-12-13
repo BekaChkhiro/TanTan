@@ -7,6 +7,7 @@ get_header();
 ?>
 
 <div id="primary" class="content-area">
+    <span>Test Page Text</span>
     <main id="main" class="site-main">
         <?php
         while ( have_posts() ) :
