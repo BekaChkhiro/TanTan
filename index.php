@@ -6,7 +6,7 @@
 get_header();
 ?>
 <div id="primary" class="content-area">
-    ტესტ
+    <span>Test</span>
     <main id="main" class="site-main">
         <?php
         if ( have_posts() ) {
